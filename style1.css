@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#panel {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+
+#ptop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: green;
+    gap: 20px;
+}
+
+
+
+#ptop h2{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 125, 50);
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(106, 197, 108);
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#pbtm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.game-over{
+    margin-top: 10vw;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(164, 91, 232);
+}
